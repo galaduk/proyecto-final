@@ -1,0 +1,38 @@
+header{
+    background-color: #f8f9fa;
+    font-family: Georgia;
+    font-size: 48px;
+    text-align: center;
+}
+#navbarcss{
+    font-style: initial;
+    color: lawngreen;
+}
+#carouselSlides{
+    text-align: center;
+}
+.contenedor {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin-bottom: 20px;
+    cursor: pointer;
+  }
+
+  .contenedor > div {
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+    background-color: gainsboro;
+    border-radius: 20px;
+    height: 400px;
+    width: 250px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+  }
+
+  .contenedor > div:hover {
+    background-color: #93bb80;
+  }
